@@ -1,12 +1,13 @@
 # Diabetes Prediction (FastAPI + Docker)
 
+# 🌍 Live Render Deployment 
+# 📦  Live API:  [Swagger Docs](https://diabetesprediction-2zpf.onrender.com/docs)
+# 📦  Live APPLICATION: [Heart Disease Prediction](https://diabetesprediction-2zpf.onrender.com/)
 
 ```
 
 
-# 🌍 Live Render Deployment 
-# 📦  Live API:  [Swagger Docs](https://diabetesprediction-2zpf.onrender.com/docs)
-# 📦  Live APPLICATION: [Heart Disease Prediction](https://diabetesprediction-2zpf.onrender.com/)
+
 
 DiabetesPrediction/
 │

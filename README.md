@@ -1,4 +1,10 @@
 ```
+# Diabetes Prediction (FastAPI + Docker)
+
+# 🌍 Live Render Deployment 
+# 📦  Live API:  [Swagger Docs](https://diabetesprediction-2zpf.onrender.com/docs)
+# 📦  Live APPLICATION: [Heart Disease Prediction](https://diabetesprediction-2zpf.onrender.com/)
+
 DiabetesPrediction/
 │
 ├── app/
@@ -26,11 +32,7 @@ DiabetesPrediction/
 └── requirements.txt             # Python dependencies
 
 
-# Diabetes Prediction (FastAPI + Docker)
 
-# 🌍 Live Render Deployment 
-# 📦  Live API:  [Swagger Docs](https://diabetesprediction-2zpf.onrender.com/docs)
-# 📦  Live APPLICATION: [Heart Disease Prediction](https://diabetesprediction-2zpf.onrender.com/)
 
 
 🫀 Diabetes Prediction API

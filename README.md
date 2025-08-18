@@ -1,3 +1,4 @@
+'''
 diabetesprediction/
 │
 ├── model/
@@ -20,3 +21,6 @@ diabetesprediction/
 │
 ├── .gitignore
 └── README.md
+
+
+https://diabetesprediction-2zpf.onrender.com/

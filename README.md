@@ -50,7 +50,7 @@ docker-compose up --build
 Then visit: http://localhost:8000/docs
 
 📦 Train model locally
-```bash
+
 python -m pip install -r requirements.txt
 python train_model.py
 # This will create model/heart_model.joblib

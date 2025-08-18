@@ -1,26 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Diabetes Predictor</title>
-  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class="container">
-    <h1>Diabetes Prediction</h1>
-    <form id="form">
-      <label>Pregnancies <input type="number" name="Pregnancies" required></label>
-      <label>Glucose <input type="number" name="Glucose" required></label>
-      <label>Blood Pressure <input type="number" name="BloodPressure" required></label>
-      <label>Skin Thickness <input type="number" name="SkinThickness" required></label>
-      <label>Insulin <input type="number" name="Insulin" required></label>
-      <label>BMI <input type="number" step="0.1" name="BMI" required></label>
-      <label>Diabetes Pedigree Function <input type="number" step="0.01" name="DiabetesPedigreeFunction" required></label>
-      <label>Age <input type="number" name="Age" required></label>
-      <button type="submit">Predict</button>
+<body class="bg-gradient-to-br from-blue-300 via-green-200 to-teal-100 min-h-screen flex flex-col items-center p-4 font-sans">
+  <!-- Sticky Navbar -->
+  <nav class="fixed top-0 w-full bg-white/40 backdrop-blur-md shadow-lg border-b border-white/30 z-50">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold bg-gradient-to-r from-red-500 to-pink-500 bg-clip-text text-transparent">
+        Diabetes Predictor
+      </h1>
+      <a href="https://diabetesprediction-2zpf.onrender.com/docs" target="_blank"
+         class="px-5 py-2 rounded-full bg-gradient-to-r from-pink-500 to-red-500 text-white font-semibold shadow-lg hover:from-red-500 hover:to-pink-500 transition-transform transform hover:-translate-y-0.5">
+        📄 API Docs
+      </a>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="pt-16 w-full max-w-xl">    
+    <form id="form" class="bg-white p-6 rounded-lg shadow-md space-y-4">
+      <h2 class="text-2xl font-semibold text-center mb-2">Check Your Diabetes </h2>
+      <p class="text-gray-600 mt-2 text-center">Fill in the details below and get instant prediction</p>
+      <div class="grid grid-cols-2 gap-4">
+        <label class="block">Pregnancies <input type="number" name="Pregnancies" class="w-full border p-2 rounded" required></label>
+        <label class="block">Glucose <input type="number" name="Glucose" class="w-full border p-2 rounded" required></label>
+        <label class="block">Blood Pressure <input type="number" name="BloodPressure" class="w-full border p-2 rounded" required></label>
+        <label class="block">Skin Thickness <input type="number" name="SkinThickness" class="w-full border p-2 rounded" required></label>
+        <label class="block">Insulin <input type="number" name="Insulin" class="w-full border p-2 rounded" required></label>
+        <label class="block">BMI <input type="number" step="0.1" name="BMI" class="w-full border p-2 rounded" required></label>
+        <label class="block">Diabetes Pedigree Function <input type="number" step="0.01" name="DiabetesPedigreeFunction" class="w-full border p-2 rounded" required></label>
+        <label class="block">Age <input type="number" name="Age" class="w-full border p-2 rounded" required></label>
+      </div>
+      <button type="submit" class="w-full bg-pink-500 text-white py-2 px-4 rounded hover:bg-red-500">
+        Predict
+      </button>
     </form>
-    <div id="result"></div>
+
+    <div id="result" class="mt-6 text-center text-lg font-bold text-gray-800"></div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>

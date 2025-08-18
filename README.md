@@ -60,30 +60,33 @@ python train_model.py
 📁 Project Structure
 
 ```
-diabetesprediction/
+DiabetesPrediction/
+│
+├── app/
+│   ├── __pycache__/              # Auto-generated Python cache
+│   ├── __init__.py               # Makes the app a package
+│   ├── main.py                   # FastAPI entry point or app logic
+│   ├── schemas.py                # Pydantic models (input/output validation)
+│   ├── metrics.json              # Model performance metrics
+│   ├── diabetes_model.pkl        # Trained machine learning model
+│   └── static/                   # Static front-end files
+│       ├── index.html
+│       ├── script.js
+│       └── style.css
+│
+├── data/
+│   └── diabetes.csv              # Dataset used for training
 │
 ├── model/
-│   ├── train_model.py
-│   ├── diabetes_model.pkl
-│   └── metrics.json
+│   └── train_model.py            # Model training script
 │
-├── backend/
-│   ├── main.py
-│   ├── schemas.py
-│   ├── diabetes_model.pkl
-│   ├── metrics.json
-│   ├── requirements.txt
-│   └── Dockerfile
-│
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── .gitignore
-└── README.md
+├── Dockerfile                    # Docker container instructions
+├── docker-compose.yml           # Docker Compose for service management
+├── metrics.json                  # (Duplicate or root-level copy)
+├── README.md                     # Project documentation
+└── requirements.txt             # Python dependencies
 
-```
+
 
 📸 Screenshots
 ```

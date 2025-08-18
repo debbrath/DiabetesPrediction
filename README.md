@@ -58,7 +58,6 @@ python train_model.py
 # This will create model/heart_model.joblib
 
 📁 Project Structure
-
 ```
 DiabetesPrediction/
 │

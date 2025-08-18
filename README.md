@@ -82,6 +82,7 @@ diabetesprediction/
 │
 ├── .gitignore
 └── README.md
+
 ```
 
 📸 Screenshots

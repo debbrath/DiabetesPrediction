@@ -53,14 +53,10 @@ Then visit: http://localhost:8000/docs
 
 python -m pip install -r requirements.txt
 python train_model.py
-# This will create model/heart_model.joblib
 
+📦 Project Structure
 
 ```
-
-
-
-
 DiabetesPrediction/
 │
 ├── app/

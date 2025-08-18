@@ -20,6 +20,41 @@ A FastAPI-powered REST API that serves predictions from a machine learning model
 
 ☁️ Live deployment on Render
 
+🧠 Model
+
+Trained on the Diabetes dataset
+
+Model type: LogisticRegression,RandomForest
+
+Saved using joblib and served as a REST API
+
+🚀 Tech Stack
+
+FastAPI
+
+scikit-learn
+
+Docker & Docker Compose
+
+Render (for cloud deployment)
+
+Pydantic (for input validation)
+
+📦 Installation (Local)
+bash
+Copy
+Edit
+git clone https://github.com/debbrath/DiabetesPrediction.git
+cd DiabetesPrediction
+docker-compose up --build
+Then visit: http://localhost:8000/docs
+
+📦 Train model locally
+```bash
+python -m pip install -r requirements.txt
+python train_model.py
+# This will create model/heart_model.joblib
+
 
 ```
 
@@ -59,40 +94,7 @@ DiabetesPrediction/
 
 
 
-🧠 Model
 
-Trained on the Diabetes dataset
-
-Model type: LogisticRegression,RandomForest
-
-Saved using joblib and served as a REST API
-
-🚀 Tech Stack
-
-FastAPI
-
-scikit-learn
-
-Docker & Docker Compose
-
-Render (for cloud deployment)
-
-Pydantic (for input validation)
-
-📦 Installation (Local)
-bash
-Copy
-Edit
-git clone https://github.com/debbrath/DiabetesPrediction.git
-cd DiabetesPrediction
-docker-compose up --build
-Then visit: http://localhost:8000/docs
-
-📦 Train model locally
-```bash
-python -m pip install -r requirements.txt
-python train_model.py
-# This will create model/heart_model.joblib
 
 
 

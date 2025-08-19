@@ -84,20 +84,9 @@ DiabetesPrediction/
 └── requirements.txt             # Python dependencies
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 📸 Screenshots
-
+```
+![Screenshot](https://github.com/debbrath/DiabetesPrediction/blob/main/image/2025-08-19%2018_11_52-Settings.png)
 
 ✍️ Author
 

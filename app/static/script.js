@@ -18,5 +18,5 @@ document.getElementById("form").addEventListener("submit", async function (e) {
 
   const resultDiv = document.getElementById("result");
   resultDiv.style.display = "block";
-  resultDiv.innerHTML = `<strong>Result:</strong> ${result.result}<br><strong>Confidence:</strong> ${result.confidence}`;
+  resultDiv.innerHTML = `<strong>Prediction:</strong> ${result.result}<br><strong>Confidence:</strong> ${result.confidence}`;
 });

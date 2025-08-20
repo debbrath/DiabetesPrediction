@@ -102,12 +102,12 @@ uvicorn app.main:app --reload
 
 ```
 <br/>
+
+
 ## 📸 Screenshots
-```
 ![Screenshot](https://github.com/debbrath/DiabetesPrediction/blob/main/image/2025-08-19%2018_11_52-Settings.png)
 
 <br/>
-
 ---
 ✍️ Author
 

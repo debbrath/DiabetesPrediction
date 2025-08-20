@@ -84,10 +84,10 @@ pip install -r requirements.txt
 # For training model and build joblib
 python train_model.py
 ```
-### 6. Run the API locally
+### 5. Run the API locally
 ```bash
 uvicorn app.main:app --reload
-
+```
 <br/>
 
 ##🚪 API 

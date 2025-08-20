@@ -102,7 +102,6 @@ uvicorn app.main:app --reload
 
 ```
 
-<br/>
 
 ## 📸 Screenshots
 ```

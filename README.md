@@ -100,6 +100,7 @@ uvicorn app.main:app --reload
 | POST   | /predict     | Submit patient data to receive a diabetes prediction         |
 
 
+```
 <br/>
 
 📸 Screenshots

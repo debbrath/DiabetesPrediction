@@ -25,21 +25,7 @@ The predictive system is trained using the Pima Indians Diabetes Dataset, applyi
 
 •	Deployed on Render: Hosted live with automatic documentation available out of the box.
 
-
-## 🔍 Features
-Features
-
-Trained ML Model:
-
-✅ /health — Health check endpoint
-
-🔮 /predict — Accepts patient data and returns diabetes prediction (True/False)
-
-📄 /metrics — Return classification metrics
-
-🐳 Dockerized for local and cloud deployment
-
-☁️ Live deployment on Render
+<br/>
 
 🧠 Model
 

@@ -61,6 +61,7 @@ DiabetesPrediction/
 ├── README.md                     # Project documentation
 └── requirements.txt             # Python dependencies
 
+```
 <br/>
 
 ## 🛠 Installation & Local Development

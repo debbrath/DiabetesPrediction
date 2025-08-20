@@ -1,4 +1,4 @@
-# Diabetes Prediction System (FastAPI + Render + Docker)
+<img width="584" height="103" alt="image" src="https://github.com/user-attachments/assets/d0e3e545-09b5-43b4-8daf-5baac70bf9ba" /># Diabetes Prediction System (FastAPI + Render + Docker)
 A production-grade FastAPI web application designed to predict diabetes based on patient health data. It emphasizes machine learning deployment, asynchronous REST API design and modern UI development, delivering predictions through both an interactive dashboard and a RESTful endpoint.
 
 The predictive system is trained using the Pima Indians Diabetes Dataset, applying multiple algorithms such as Logistic Regression, Random Forest to ensure accuracy and performance.
@@ -89,20 +89,16 @@ python train_model.py
 uvicorn app.main:app --reload
 ```
 <br/>
-
-## ⚙️ Technology Overview
-- **Backend:** FastAPI, Uvicorn
-- **Frontend:** HTML, CSS, JavaScript
-- **Machine Learning:** Scikit-learn using the Pima Indians Diabetes dataset
-- **Deployment Tools:** Docker, Docker Compose, and hosted on Render
   
 ## 🚪 API 
 
-Method	Endpoint	Description
-GET	/health	Performs a health check to confirm the API is running
-GET	/info	Returns information about the machine learning model
-GET	/metrics	Outputs the best algorithm and its AUC score.
-POST	/predict	Accepts patient data and returns a prediction for diabetes
+| Method | Endpoint     | Description                                                  |
+|--------|--------------|--------------------------------------------------------------|
+| GET    | /health      | Check if the API is up and running                           |
+| GET    | /info        | Get details about the trained machine learning model         |
+| GET    | /metrics     | Retrieve best-performing algorithm and its AUC score         |
+| POST   | /predict     | Submit patient data to receive a diabetes prediction         |
+
 
 <br/>
 

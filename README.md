@@ -91,17 +91,17 @@ uvicorn app.main:app --reload
 <br/>
   
 ## 🚪 API 
-
+```
 | Method | Endpoint     | Description                                                  |
 |--------|--------------|--------------------------------------------------------------|
 | GET    | /health      | Check if the API is up and running                           |
 | GET    | /info        | Get details about the trained machine learning model         |
 | GET    | /metrics     | Retrieve best-performing algorithm and its AUC score         |
 | POST   | /predict     | Submit patient data to receive a diabetes prediction         |
+
+
 ```
 <br/>
-
-## 🔍 Features
 ## 📸 Screenshots
 ```
 ![Screenshot](https://github.com/debbrath/DiabetesPrediction/blob/main/image/2025-08-19%2018_11_52-Settings.png)

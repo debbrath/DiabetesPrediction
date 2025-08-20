@@ -90,7 +90,7 @@ uvicorn app.main:app --reload
 
 <br/>
 
-## 🚪 API 
+##🚪 API 
 Method	Endpoint	Description
 GET	/health	Performs a health check to confirm the API is running
 GET	/info	Returns information about the machine learning model

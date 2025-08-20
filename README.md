@@ -23,41 +23,39 @@ The predictive system is trained using the Pima Indians Diabetes Dataset, applyi
 
 <br/>
 
-🧠 Model
+## ⚙️ Technology Overview
+- ** Backend:**: FastAPI, Uvicorn
+- ** Frontend:**: HTML, CSS, JavaScript
+- ** Machine Learning:**: Scikit-learn using the Pima Indians Diabetes dataset
+- ** Deployment Tools:**: Docker, Docker Compose, and hosted on Render
 
-Trained on the Diabetes dataset
+<br/>
 
-Model type: LogisticRegression,RandomForest
-
-Saved using joblib and served as a REST API
-
-🚀 Tech Stack
-
-FastAPI
-
-scikit-learn
-
-Docker & Docker Compose
-
-Render (for cloud deployment)
-
-Pydantic (for input validation)
-
-📦 Installation (Local)
-bash
-Copy
-Edit
+## 🛠 Installation & Local Development
+### 1. Prerequisites
+```bash
+- Python 3.13.7
+- pip (Python package manager)
+```
+### 2. Clone the repository
+```bash
 git clone https://github.com/debbrath/DiabetesPrediction.git
 cd DiabetesPrediction
-docker-compose up --build
-Then visit: http://localhost:8000/docs
-
-📦 Train model locally
-
-python -m pip install -r requirements.txt
+```
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4. Train the model (if not already trained)
+```bash
+# For training model and build joblib
 python train_model.py
+```
+### 6. Run the API locally
+```bash
+uvicorn app.main:app --reload
 
-📦 Project Structure
+## 📦 Project Structure
 
 ```
 DiabetesPrediction/

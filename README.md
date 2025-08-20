@@ -17,8 +17,8 @@ The predictive system is trained using the Pima Indians Diabetes Dataset, applyi
 - •	**FastAPI:** Implements a RESTful API with clear, asynchronous, and well-documented routes.
 - •	**Schema Validation:** Enforces type safety using Pydantic for robust data handling.
 - •	**Interactive API Docs:** Automatically generated documentation via Swagger UI and ReDoc.
-- •	**Docker:** Easily deployable using Docker containers.
-- •	**Deployed on Render:** Hosted live with automatic documentation available out of the box.
+ •	**Docker:** Easily deployable using Docker containers.
+ •	**Deployed on Render:** Hosted live with automatic documentation available out of the box.
 
 
 <br/>

@@ -109,6 +109,7 @@ uvicorn app.main:app --reload
 
 <br/>
 ---
+
 ✍️ Author
 
 Debbrath Debnath

@@ -7,6 +7,7 @@ The predictive system is trained using the Pima Indians Diabetes Dataset, applyi
 
 ## ⚡ Live Deployment 
  📦  Live API:  [Swagger Docs](https://diabetesprediction-2zpf.onrender.com/docs)
+ 
  📦  Live APPLICATION: [Diabetes Prediction](https://diabetesprediction-2zpf.onrender.com/)
 
 <br/>

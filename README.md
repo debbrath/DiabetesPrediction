@@ -62,6 +62,7 @@ DiabetesPrediction/
 └── requirements.txt             # Python dependencies
 
 <br/>
+
 ## 🛠 Installation & Local Development
 ### 1. Prerequisites
 ```bash

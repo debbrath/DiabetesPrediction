@@ -90,7 +90,13 @@ uvicorn app.main:app --reload
 ```
 <br/>
 
-##🚪 API 
+## ⚙️ Technology Overview
+- **Backend:** FastAPI, Uvicorn
+- **Frontend:** HTML, CSS, JavaScript
+- **Machine Learning:** Scikit-learn using the Pima Indians Diabetes dataset
+- **Deployment Tools:** Docker, Docker Compose, and hosted on Render
+  
+## 🚪 API 
 
 Method	Endpoint	Description
 GET	/health	Performs a health check to confirm the API is running

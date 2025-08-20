@@ -89,6 +89,16 @@ python train_model.py
 uvicorn app.main:app --reload
 
 <br/>
+
+## 🚪 API 
+Method	Endpoint	Description
+GET	/health	Performs a health check to confirm the API is running
+GET	/info	Returns information about the machine learning model
+GET	/metrics	Outputs the best algorithm and its AUC score.
+POST	/predict	Accepts patient data and returns a prediction for diabetes
+
+<br/>
+
 📸 Screenshots
 ```
 ![Screenshot](https://github.com/debbrath/DiabetesPrediction/blob/main/image/2025-08-19%2018_11_52-Settings.png)

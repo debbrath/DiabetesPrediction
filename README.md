@@ -32,30 +32,6 @@ The predictive system is trained using the Pima Indians Diabetes Dataset, applyi
 
 <br/>
 
-## 🛠 Installation & Local Development
-### 1. Prerequisites
-```bash
-- Python 3.13.7
-- pip (Python package manager)
-```
-### 2. Clone the repository
-```bash
-git clone https://github.com/debbrath/DiabetesPrediction.git
-cd DiabetesPrediction
-```
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-### 4. Train the model (if not already trained)
-```bash
-# For training model and build joblib
-python train_model.py
-```
-### 6. Run the API locally
-```bash
-uvicorn app.main:app --reload
-
 ## 📦 Project Structure
 
 ```
@@ -85,7 +61,32 @@ DiabetesPrediction/
 ├── README.md                     # Project documentation
 └── requirements.txt             # Python dependencies
 
+<br/>
+## 🛠 Installation & Local Development
+### 1. Prerequisites
+```bash
+- Python 3.13.7
+- pip (Python package manager)
+```
+### 2. Clone the repository
+```bash
+git clone https://github.com/debbrath/DiabetesPrediction.git
+cd DiabetesPrediction
+```
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4. Train the model (if not already trained)
+```bash
+# For training model and build joblib
+python train_model.py
+```
+### 6. Run the API locally
+```bash
+uvicorn app.main:app --reload
 
+<br/>
 📸 Screenshots
 ```
 ![Screenshot](https://github.com/debbrath/DiabetesPrediction/blob/main/image/2025-08-19%2018_11_52-Settings.png)

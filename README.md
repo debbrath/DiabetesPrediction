@@ -98,10 +98,8 @@ uvicorn app.main:app --reload
 | GET    | /info        | Get details about the trained machine learning model         |
 | GET    | /metrics     | Retrieve best-performing algorithm and its AUC score         |
 | POST   | /predict     | Submit patient data to receive a diabetes prediction         |
-
-
 ```
-
+<br/>
 
 ## 📸 Screenshots
 ```

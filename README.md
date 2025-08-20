@@ -24,10 +24,11 @@ The predictive system is trained using the Pima Indians Diabetes Dataset, applyi
 <br/>
 
 ## ⚙️ Technology Overview
-- ** Backend:**: FastAPI, Uvicorn
-- ** Frontend:**: HTML, CSS, JavaScript
-- ** Machine Learning:**: Scikit-learn using the Pima Indians Diabetes dataset
-- ** Deployment Tools:**: Docker, Docker Compose, and hosted on Render
+- **Backend:**: FastAPI, Uvicorn
+- **Frontend:**: HTML, CSS, JavaScript
+- **Machine Learning:**: Scikit-learn using the Pima Indians Diabetes dataset
+- **Deployment Tools:**: Docker, Docker Compose, and hosted on Render
+
 
 <br/>
 

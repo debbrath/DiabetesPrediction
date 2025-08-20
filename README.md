@@ -2,8 +2,10 @@
 A production-grade FastAPI web application designed to predict diabetes based on patient health data. It emphasizes machine learning deployment, asynchronous REST API design and modern UI development, delivering predictions through both an interactive dashboard and a RESTful endpoint.
 
 The predictive system is trained using the Pima Indians Diabetes Dataset, applying multiple algorithms such as Logistic Regression, Random Forest to ensure accuracy and performance.
+
 <br/>
-## 🌍 Live Render Deployment 
+
+## 🌍 Live Deployment 
  📦  Live API:  [Swagger Docs](https://diabetesprediction-2zpf.onrender.com/docs)
  📦  Live APPLICATION: [Diabetes Prediction](https://diabetesprediction-2zpf.onrender.com/)
 <br/>

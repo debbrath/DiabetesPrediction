@@ -12,7 +12,19 @@ The predictive system is trained using the Pima Indians Diabetes Dataset, applyi
 
 <br/>
 
-🔍 Features
+## 🔍 Features
+•	Trained ML Model:  Train model on the Pima Indians Diabetes dataset to provide reliable diabetes predictions.
+•	FastAPI: Implements a RESTful API with clear, asynchronous, and well-documented routes.
+•	Schema Validation: Enforces type safety using Pydantic for robust data handling.
+•	Interactive API Docs: Automatically generated documentation via Swagger UI and ReDoc.
+•	Docker: Easily deployable using Docker containers.
+•	Deployed on Render: Hosted live with automatic documentation available out of the box.
+
+
+## 🔍 Features
+Features
+
+Trained ML Model:
 
 ✅ /health — Health check endpoint
 

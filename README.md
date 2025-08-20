@@ -8,11 +8,8 @@ The predictive system is trained using the Pima Indians Diabetes Dataset, applyi
 ## ⚡ Live Deployment 
  📦  Live API:  [Swagger Docs](https://diabetesprediction-2zpf.onrender.com/docs)
  📦  Live APPLICATION: [Diabetes Prediction](https://diabetesprediction-2zpf.onrender.com/)
+
 <br/>
-
-📦  Diabetes Prediction API
-
-A FastAPI-powered REST API that serves predictions from a machine learning model trained to detect diabetes. This project focuses on containerization with Docker and deployment to the cloud using Render. Built as part of a hands-on assignment to demonstrate practical DevOps, ML, and API development skills.
 
 🔍 Features
 

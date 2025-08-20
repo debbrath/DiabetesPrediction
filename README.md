@@ -1,4 +1,4 @@
-<img width="584" height="103" alt="image" src="https://github.com/user-attachments/assets/d0e3e545-09b5-43b4-8daf-5baac70bf9ba" /># Diabetes Prediction System (FastAPI + Render + Docker)
+# Diabetes Prediction System (FastAPI + Render + Docker)
 A production-grade FastAPI web application designed to predict diabetes based on patient health data. It emphasizes machine learning deployment, asynchronous REST API design and modern UI development, delivering predictions through both an interactive dashboard and a RESTful endpoint.
 
 The predictive system is trained using the Pima Indians Diabetes Dataset, applying multiple algorithms such as Logistic Regression, Random Forest to ensure accuracy and performance.
